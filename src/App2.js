@@ -7,13 +7,10 @@ import { div } from "framer-motion/client";
 function App()  {
     const [accounts, setAccounts] = useState([]);
 
-    return (
-           <div className="App">
-             <div className="moving-background"></div>
+    return (<div className="App">
            <NavBar accounts = {accounts} setAccounts={setAccounts}/>
            <MainMint accounts = {accounts} setAccounts={setAccounts}/>
-         </div>
-         );
+         </div>);
 }
 
 export default App;
