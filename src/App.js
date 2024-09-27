@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import MainMint from "./MainMint";
 import NavBar from "./NavBar";
-import { div } from "framer-motion/client";
 
 function App()  {
     const [accounts, setAccounts] = useState([]);
