@@ -60,3 +60,61 @@ button:hover {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* Media Queries */
+
+/* Extra small devices (xs, 0px - 575px) */
+@media only screen and (max-width: 575px) {
+    body {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
+/* Small devices (sm, 576px - 767px) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    button {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+}
+
+/* Medium devices (md, 768px - 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    button {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}
+
+/* Large devices (lg, 992px and above) */
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    button {
+        font-size: 18px;
+        padding: 14px 24px;
+    }
+}
